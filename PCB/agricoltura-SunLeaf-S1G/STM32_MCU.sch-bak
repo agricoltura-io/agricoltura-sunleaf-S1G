@@ -1807,4 +1807,6 @@ Wire Wire Line
 Connection ~ 9200 2850
 Wire Wire Line
 	9200 2850 8100 2850
+Text HLabel 900  4350 2    50   Input ~ 0
+BAT_VOLT_SENSE
 $EndSCHEMATC
