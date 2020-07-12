@@ -220,4 +220,8 @@ Wire Wire Line
 Connection ~ 5350 3950
 Wire Wire Line
 	5350 3950 5350 4100
+Text Label 4700 3200 0    50   ~ 0
+RF_LED
+Text Notes 3300 1850 0    200  ~ 40
+ST SPSGRFC-915 - Sub 1GHZ Radio
 $EndSCHEMATC

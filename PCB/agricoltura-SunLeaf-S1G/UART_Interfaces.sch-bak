@@ -565,4 +565,6 @@ Wire Wire Line
 	2450 2800 2450 2950
 Wire Wire Line
 	2450 3350 2850 3350
+Text Notes 2200 1550 0    200  ~ 40
+UART Mux Interface with QIIC Style Connectors
 $EndSCHEMATC

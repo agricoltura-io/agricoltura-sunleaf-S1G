@@ -743,4 +743,6 @@ Text HLabel 1450 2550 0    50   Input ~ 0
 I2C_SENSE1_SCL
 Text HLabel 1450 3050 0    50   Input ~ 0
 I2C_MUX1_RESET
+Text Notes 1250 1600 0    200  ~ 40
+I2C Mux With QIIC Interconnects
 $EndSCHEMATC

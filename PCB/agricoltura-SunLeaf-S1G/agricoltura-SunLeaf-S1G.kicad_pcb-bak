@@ -331,7 +331,7 @@
   )
 
   (module AVR-KiCAD-Lib-Oscillators:ABS07-32.768KHZ-9-T (layer F.Cu) (tedit 5EE8516A) (tstamp 5F0A7139)
-    (at 157.7 97.9 270)
+    (at 143.4 77.6 270)
     (path /5F054F9E/5EEBD6FB)
     (fp_text reference X2 (at 0 -2.159 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -361,7 +361,7 @@
   )
 
   (module AVR-KiCAD-Lib-Oscillators:ABM3B8.000MHZB2T (layer F.Cu) (tedit 5EE8515B) (tstamp 5F0A7129)
-    (at 159.2 92.3 90)
+    (at 144.9 72 90)
     (path /5F054F9E/5EEBC8CA)
     (fp_text reference X1 (at -1.016 -2.667 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -710,7 +710,7 @@
   )
 
   (module AVR-KiCAD-Lib-ICs:STM32F446RET6 (layer F.Cu) (tedit 5EE82A8C) (tstamp 5F0A7049)
-    (at 145.925 92.818 180)
+    (at 131.625 72.518 180)
     (path /5F054F9E/5EE8B213)
     (fp_text reference U1 (at -6.731 -5.842) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.15)))
@@ -1906,7 +1906,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6D9E)
-    (at 120.3 77.855)
+    (at 143.2 91.855)
     (path /5F054F9E/5F0DBCFA)
     (fp_text reference R18 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1938,7 +1938,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0603 (layer F.Cu) (tedit 582AA945) (tstamp 5F0A6D8C)
-    (at 113.32 72.882)
+    (at 136.22 86.882)
     (path /5F054F9E/5F1ADBF1)
     (fp_text reference R17 (at -3.556 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2002,7 +2002,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6D68)
-    (at 117.32 79.895)
+    (at 140.22 93.895)
     (path /5F054F9E/5F234855)
     (fp_text reference R15 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2098,7 +2098,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6D32)
-    (at 114.34 79.355)
+    (at 137.24 93.355)
     (path /5F054F9E/5F3799A9)
     (fp_text reference R12 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2162,7 +2162,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6D0E)
-    (at 120.3 75.815)
+    (at 143.2 89.815)
     (path /5F054F9E/5F2F22BD)
     (fp_text reference R10 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2226,7 +2226,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6CEA)
-    (at 117.32 77.855)
+    (at 140.22 91.855)
     (path /5F054F9E/5EED3241)
     (fp_text reference R8 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2354,7 +2354,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6CA2)
-    (at 123.28 75.815)
+    (at 146.18 89.815)
     (path /5F054F9E/5EF63079)
     (fp_text reference R4 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2566,7 +2566,7 @@
   )
 
   (module AVR-KiCAD-Lib-Modules:XCVR_SPSGRF-915 (layer F.Cu) (tedit 5ED9B3D5) (tstamp 5F0A6C2E)
-    (at 135.5 63.1)
+    (at 126.3 60.2)
     (path /5F055094/5F088F18)
     (fp_text reference M1 (at -3.333855 -9.510205) (layer F.SilkS)
       (effects (font (size 1.002654 1.002654) (thickness 0.15)))
@@ -2609,7 +2609,7 @@
   )
 
   (module AVR-KiCAD-Lib-Inductors:MI0603K300R-10 (layer F.Cu) (tedit 5EE84DFE) (tstamp 5F0A6C14)
-    (at 109.645 72.932)
+    (at 132.545 86.932)
     (path /5F054F9E/5F1BE784)
     (fp_text reference L3 (at -3.556 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2632,7 +2632,7 @@
   )
 
   (module AVR-KiCAD-Lib-Inductors:MI0603K300R-10 (layer F.Cu) (tedit 5EE84DFE) (tstamp 5F0A6C06)
-    (at 105.895 72.932)
+    (at 128.795 86.932)
     (path /5F054F9E/5F2C639B)
     (fp_text reference L2 (at -3.556 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2836,7 +2836,7 @@
   )
 
   (module AVR-KiCAD-Lib-Diodes:LED0603 (layer F.Cu) (tedit 5E5C7B14) (tstamp 5F0A6BA0)
-    (at 113.144999 75.207)
+    (at 136.044999 89.207)
     (path /5F054F9E/5F306AE9)
     (fp_text reference D1 (at 2.546782 -1.273388) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3197,7 +3197,7 @@
   )
 
   (module growbox-KiCAD-Capacitors:C0402 (layer F.Cu) (tedit 5E597FF6) (tstamp 5F0A6AD1)
-    (at 111.36 77.34)
+    (at 134.26 91.34)
     (path /5F054F9E/5EF457E3)
     (fp_text reference C11 (at 0 3.048) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3293,7 +3293,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6A9B)
-    (at 114.34 77.315)
+    (at 137.24 91.315)
     (path /5F054F9E/5EF2AF8D)
     (fp_text reference C8 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3325,7 +3325,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6A89)
-    (at 111.36 79.375)
+    (at 134.26 93.375)
     (path /5F054F9E/5EF2BB7E)
     (fp_text reference C7 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3421,7 +3421,7 @@
   )
 
   (module AVR-KiCAD-Lib-Resistors:R0402 (layer F.Cu) (tedit 582AA938) (tstamp 5F0A6A53)
-    (at 117.32 75.815)
+    (at 140.22 89.815)
     (path /5F054F9E/5EF354C3)
     (fp_text reference C4 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
