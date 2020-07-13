@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR028
 U 1 1 5F13A94E
 P 10600 4200
-F 0 "#PWR?" H 10600 3950 50  0001 C CNN
+F 0 "#PWR028" H 10600 3950 50  0001 C CNN
 F 1 "GND" H 10605 4027 50  0000 C CNN
 F 2 "" H 10600 4200 50  0001 C CNN
 F 3 "" H 10600 4200 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 10600 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR025
 U 1 1 5F13A5AA
 P 8850 4200
-F 0 "#PWR?" H 8850 3950 50  0001 C CNN
+F 0 "#PWR025" H 8850 3950 50  0001 C CNN
 F 1 "GND" H 8855 4027 50  0000 C CNN
 F 2 "" H 8850 4200 50  0001 C CNN
 F 3 "" H 8850 4200 50  0001 C CNN
@@ -39,10 +39,10 @@ Wire Wire Line
 	8850 3750 9000 3750
 Connection ~ 8850 3750
 $Comp
-L AVR-KiCAD-Lib-Capacitors:C0805C104M5RACTU C?
+L AVR-KiCAD-Lib-Capacitors:C0805C104M5RACTU C16
 U 1 1 5F1389C3
 P 8850 4000
-F 0 "C?" V 8921 3872 50  0000 R CNN
+F 0 "C16" V 8921 3872 50  0000 R CNN
 F 1 "C0805C104M5RACTU" H 8900 4200 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Capacitors:C0805" H 8650 4000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8750 4100 50  0001 C CNN
@@ -77,10 +77,10 @@ $EndComp
 Wire Wire Line
 	8400 3750 8850 3750
 $Comp
-L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C?
+L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C17
 U 1 1 5F134718
 P 10600 3950
-F 0 "C?" V 10579 4078 50  0000 L CNN
+F 0 "C17" V 10579 4078 50  0000 L CNN
 F 1 "C0402C104K9PACTU" H 10650 4150 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 10400 3950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 10500 4050 50  0001 C CNN
@@ -140,10 +140,10 @@ Connection ~ 4300 3750
 Wire Wire Line
 	4300 3750 4300 3200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 5F1201C3
 P 2300 4150
-F 0 "#PWR?" H 2300 3900 50  0001 C CNN
+F 0 "#PWR022" H 2300 3900 50  0001 C CNN
 F 1 "GND" H 2305 3977 50  0000 C CNN
 F 2 "" H 2300 4150 50  0001 C CNN
 F 3 "" H 2300 4150 50  0001 C CNN
@@ -172,10 +172,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 3200 9000 3200
 $Comp
-L AVR-KiCAD-Lib-Diodes:B240A-13-F D?
+L AVR-KiCAD-Lib-Diodes:B240A-13-F D6
 U 1 1 5F1169F4
 P 8350 3200
-F 0 "D?" H 8350 3440 50  0000 C CNN
+F 0 "D6" H 8350 3440 50  0000 C CNN
 F 1 "B240A-13-F" H 8400 3400 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:B240A-13-F" H 8100 3350 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 8250 3300 50  0001 C CNN
@@ -215,10 +215,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 3750 7550 4350
 $Comp
-L AVR-KiCAD-Lib-Transistors:DMP3125L-7 Q?
+L AVR-KiCAD-Lib-Transistors:DMP3125L-7 Q2
 U 1 1 5F0FF57C
 P 8200 3750
-F 0 "Q?" V 8000 3950 50  0000 L CNN
+F 0 "Q2" V 8000 3950 50  0000 L CNN
 F 1 "DMP3125L-7" H 8750 3900 50  0001 C CNN
 F 2 "growbox-KiCAD-Transistors:SOT-23" H 8000 3750 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMP3125L.pdf" H 8050 3900 50  0001 C CNN
@@ -259,10 +259,10 @@ BAT
 Wire Wire Line
 	9300 3900 9300 4050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR026
 U 1 1 5F0E7278
 P 9300 4050
-F 0 "#PWR?" H 9300 3800 50  0001 C CNN
+F 0 "#PWR026" H 9300 3800 50  0001 C CNN
 F 1 "GND" H 9305 3877 50  0000 C CNN
 F 2 "" H 9300 4050 50  0001 C CNN
 F 3 "" H 9300 4050 50  0001 C CNN
@@ -270,10 +270,10 @@ F 3 "" H 9300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR024
 U 1 1 5F0E2741
 P 7550 5350
-F 0 "#PWR?" H 7550 5100 50  0001 C CNN
+F 0 "#PWR024" H 7550 5100 50  0001 C CNN
 F 1 "GND" H 7555 5177 50  0000 C CNN
 F 2 "" H 7550 5350 50  0001 C CNN
 F 3 "" H 7550 5350 50  0001 C CNN
@@ -288,10 +288,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 4750 7550 4800
 $Comp
-L AVR-KiCAD-Lib-Resistors:ERA-3AEB3741V R?
+L AVR-KiCAD-Lib-Resistors:ERA-3AEB3741V R25
 U 1 1 5F0D4B03
 P 7550 5050
-F 0 "R?" V 7504 5138 50  0000 L CNN
+F 0 "R25" V 7504 5138 50  0000 L CNN
 F 1 "ERA-3AEB3741V" H 7550 5275 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0603" H 7550 5050 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7550 5050 50  0001 C CNN
@@ -324,10 +324,10 @@ F 28 "3.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive 
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 5F0CC9EA
 P 4850 5350
-F 0 "#PWR?" H 4850 5100 50  0001 C CNN
+F 0 "#PWR023" H 4850 5100 50  0001 C CNN
 F 1 "GND" H 4855 5177 50  0000 C CNN
 F 2 "" H 4850 5350 50  0001 C CNN
 F 3 "" H 4850 5350 50  0001 C CNN
@@ -346,10 +346,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 5350 4850 5350
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-07487RL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-07487RL R20
 U 1 1 5F0C5C83
 P 4750 5150
-F 0 "R?" V 4700 4950 50  0000 L CNN
+F 0 "R20" V 4700 4950 50  0000 L CNN
 F 1 "RC0402FR-07487RL" V 4750 5237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 4750 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4750 5150 50  0001 C CNN
@@ -413,10 +413,10 @@ Wire Wire Line
 Wire Wire Line
 	5400 4050 6100 4050
 $Comp
-L AVR-KiCAD-Lib-Resistors:ERA-3AEB3741V R?
+L AVR-KiCAD-Lib-Resistors:ERA-3AEB3741V R24
 U 1 1 5F08FFD1
 P 7550 4550
-F 0 "R?" V 7504 4638 50  0000 L CNN
+F 0 "R24" V 7504 4638 50  0000 L CNN
 F 1 "ERA-3AEB3741V" H 7550 4775 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0603" H 7550 4550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7550 4550 50  0001 C CNN
@@ -449,10 +449,10 @@ F 28 "3.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive 
 	0    1    1    0   
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-ICs:AZ1117CR-3.3TRG1 U?
+L AVR-KiCAD-Lib-ICs:AZ1117CR-3.3TRG1 U3
 U 1 1 5F08B2E3
 P 9500 3650
-F 0 "U?" H 9800 3815 50  0000 C CNN
+F 0 "U3" H 9800 3815 50  0000 C CNN
 F 1 "AZ1117CR-3.3TRG1" H 9550 3750 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-ICs:SOT_89" H 9300 3550 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" H 9400 3650 50  0001 C CNN
@@ -485,82 +485,10 @@ F 28 "*" H 11900 6250 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:S3B-PH-K-S(LF)(SN) T?
-U 1 1 5F07EF2F
-P 6400 4900
-F 0 "T?" H 6450 4950 50  0000 C CNN
-F 1 "S3B-PH-K-S(LF)(SN)" V 6300 4850 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:S3B-PH-K-S(LF)(SN)" H 5100 5950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 5000 50  0001 C CNN
-F 4 "0.18000" H 6500 5150 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.08119" H 6600 5250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 6700 5350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.07217" H 6800 5450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.06541" H 6900 5550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "JST Sales America Inc." H 7000 5650 50  0001 C CNN "MFR"
-F 10 "S3B-PH-K-S(LF)(SN)" H 7100 5750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 7200 5850 50  0001 C CNN "Vendor"
-F 12 "455-1720-ND" H 7300 5950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 7400 6050 50  0001 C CNN "Designer"
-F 14 "6mm" H 7500 6150 50  0001 C CNN "Height"
-F 15 "7/9/2020" H 8600 7250 50  0001 C CNN "Date Created"
-F 16 "7/9/2020" H 7600 6250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 7700 6350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 7800 6450 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole, RightAngle" H 7900 6550 50  0001 C CNN "Mounting"
-F 20 "3" H 8000 6650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 8100 6750 50  0001 C CNN "Status"
-F 22 "*" H 8200 6850 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 8300 6950 50  0001 C CNN "Type"
-F 24 "100V" H 8400 7050 50  0001 C CNN "Voltage"
-F 25 "*" H 8500 7200 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole, Right Angle 3 position 0.079\" (2.00mm)" H 8900 7600 50  0001 C CNN "Description"
-F 27 "S3B-PH-K-S(LF)(SN)" H 8700 7400 50  0001 C CNN "_Value_"
-F 28 "*" H 8800 7500 50  0001 C CNN "Management_ID"
-	1    6400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Connectors:S2B-PH-K-S(LF)(SN) T?
-U 1 1 5F07DDDE
-P 1400 3700
-F 0 "T?" H 1450 3750 50  0000 C CNN
-F 1 "S2B-PH-K-S(LF)(SN)" H 1800 3450 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:S2B-PH-K-S(LF)(SN)" H 100 4750 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 3800 50  0001 C CNN
-F 4 "0.17000" H 1500 3950 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.07177" H 1600 4050 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.06152" H 1800 4250 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.05981" H 1900 4350 50  0001 C CNN "Cost QTY: 10000"
-F 9 "JST Sales America Inc." H 2000 4450 50  0001 C CNN "MFR"
-F 10 "S2B-PH-K-S(LF)(SN)" H 2100 4550 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2200 4650 50  0001 C CNN "Vendor"
-F 12 "455-1720-ND" H 2300 4750 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2400 4850 50  0001 C CNN "Designer"
-F 14 "6mm" H 2500 4950 50  0001 C CNN "Height"
-F 15 "7/9/2020" H 3600 6050 50  0001 C CNN "Date Created"
-F 16 "7/9/2020" H 2600 5050 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2700 5150 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 2800 5250 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole, RightAngle" H 2900 5350 50  0001 C CNN "Mounting"
-F 20 "2" H 3000 5450 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 3100 5550 50  0001 C CNN "Status"
-F 22 "*" H 3200 5650 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 3300 5750 50  0001 C CNN "Type"
-F 24 "100V" H 3400 5850 50  0001 C CNN "Voltage"
-F 25 "*" H 3500 6000 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole, Right Angle 2 position 0.079\" (2.00mm)" H 3900 6400 50  0001 C CNN "Description"
-F 27 "S2B-PH-K-S(LF)(SN)" H 3700 6200 50  0001 C CNN "_Value_"
-F 28 "*" H 3800 6300 50  0001 C CNN "Management_ID"
-	1    1400 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R21
 U 1 1 5F0746E3
 P 5750 4350
-F 0 "R?" V 5800 4250 50  0000 C CNN
+F 0 "R21" V 5800 4250 50  0000 C CNN
 F 1 "RC0402FR-071KL" H 5750 4575 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5750 4350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5750 4350 50  0001 C CNN
@@ -593,10 +521,10 @@ F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resist
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-072KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-072KL R22
 U 1 1 5F071B98
 P 6750 3850
-F 0 "R?" H 6900 3800 50  0000 C CNN
+F 0 "R22" H 6900 3800 50  0000 C CNN
 F 1 "RC0402FR-072KL" H 6750 4075 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6750 3850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6750 3850 50  0001 C CNN
@@ -629,10 +557,10 @@ F 28 "*" H 9150 6450 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Diodes:LTST-C194TBKT D?
+L AVR-KiCAD-Lib-Diodes:LTST-C194TBKT D4
 U 1 1 5F06C0D6
 P 6200 3850
-F 0 "D?" H 6100 3900 50  0000 C CNN
+F 0 "D4" H 6100 3900 50  0000 C CNN
 F 1 "LTST-C194TBKT" H 6250 4050 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:LED0603" H 6150 3700 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF" H 6100 3950 50  0001 C CNN
@@ -665,10 +593,10 @@ F 28 "*" H 8600 6450 50  0001 C CNN "Management_ID"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-ICs:BQ24210DQCT U?
+L AVR-KiCAD-Lib-ICs:BQ24210DQCT U2
 U 1 1 5F06AB0D
 P 4500 3700
-F 0 "U?" H 4550 3750 50  0000 C CNN
+F 0 "U2" H 4550 3750 50  0000 C CNN
 F 1 "BQ24210DQCT" H 4550 3900 50  0001 C CNN
 F 2 "growbox-KiCAD-ICs:BQ24210" H 4300 3700 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq24210" H 4500 3750 50  0001 C CNN
@@ -701,10 +629,10 @@ F 28 "*" H 6900 6300 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Transistors:DMP3125L-7 Q?
+L AVR-KiCAD-Lib-Transistors:DMP3125L-7 Q1
 U 1 1 5F067AC9
 P 3500 3750
-F 0 "Q?" V 3300 3950 50  0000 L CNN
+F 0 "Q1" V 3300 3950 50  0000 L CNN
 F 1 "DMP3125L-7" H 4050 3900 50  0001 C CNN
 F 2 "growbox-KiCAD-Transistors:SOT-23" H 3300 3750 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMP3125L.pdf" H 3350 3900 50  0001 C CNN
@@ -739,10 +667,10 @@ $EndComp
 Text HLabel 1700 3200 0    50   Input ~ 0
 USB_VBUS
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR027
 U 1 1 5F2A888B
 P 10600 3750
-F 0 "#PWR?" H 10600 3600 50  0001 C CNN
+F 0 "#PWR027" H 10600 3600 50  0001 C CNN
 F 1 "+3V3" H 10615 3923 50  0000 C CNN
 F 2 "" H 10600 3750 50  0001 C CNN
 F 3 "" H 10600 3750 50  0001 C CNN
@@ -761,10 +689,10 @@ Wire Wire Line
 	7400 4950 7400 4050
 Connection ~ 7400 4050
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-072KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-072KL R23
 U 1 1 5F0733C0
 P 7200 4050
-F 0 "R?" H 7350 4000 50  0000 C CNN
+F 0 "R23" H 7350 4000 50  0000 C CNN
 F 1 "RC0402FR-072KL" H 7200 4275 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7200 4050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7200 4050 50  0001 C CNN
@@ -801,10 +729,10 @@ Wire Wire Line
 Wire Wire Line
 	6900 4050 7000 4050
 $Comp
-L AVR-KiCAD-Lib-Diodes:LTST-C194KGKT D?
+L AVR-KiCAD-Lib-Diodes:LTST-C194KGKT D5
 U 1 1 5F0984EF
 P 6650 4050
-F 0 "D?" H 6450 4100 50  0000 C CNN
+F 0 "D5" H 6450 4100 50  0000 C CNN
 F 1 "LTST-C194KGKT" H 6700 4250 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:LED0603" H 6600 3900 50  0001 C CNN
 F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2010-0197/LTST-C194KGKT.PDF" H 6550 4150 50  0001 C CNN
@@ -852,4 +780,76 @@ Text Label 8450 3750 0    50   ~ 0
 3V3_REG_IN
 Text Notes 2500 2300 0    200  ~ 40
 Power Supply & LiPo Solar Charge Controller
+$Comp
+L AVR-KiCAD-Lib-Connectors:B2B-PH-K-S(LF)(SN) T4
+U 1 1 5F6292FD
+P 1400 3700
+F 0 "T4" H 1400 3750 50  0000 C CNN
+F 1 "B2B-PH-K-S(LF)(SN)" H 1750 3450 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:B2B-PH-K-S(LF)(SN)" H 100 4750 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 3800 50  0001 C CNN
+F 4 "0.17000" H 1500 3950 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.07252" H 1600 4050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.06216" H 1800 4250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.06044" H 1900 4350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "JST Sales America Inc." H 2000 4450 50  0001 C CNN "MFR"
+F 10 "B2B-PH-K-S(LF)(SN)" H 2100 4550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2200 4650 50  0001 C CNN "Vendor"
+F 12 "455-1704-ND" H 2300 4750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2400 4850 50  0001 C CNN "Designer"
+F 14 "6mm" H 2500 4950 50  0001 C CNN "Height"
+F 15 "7/12/2020" H 3600 6050 50  0001 C CNN "Date Created"
+F 16 "7/12/2020" H 2600 5050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2700 5150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2800 5250 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole,Vertical" H 2900 5350 50  0001 C CNN "Mounting"
+F 20 "2" H 3000 5450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3100 5550 50  0001 C CNN "Status"
+F 22 "*" H 3200 5650 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 3300 5750 50  0001 C CNN "Type"
+F 24 "100V" H 3400 5850 50  0001 C CNN "Voltage"
+F 25 "*" H 3500 6000 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 2 position 0.079\" (2.00mm)" H 3900 6400 50  0001 C CNN "Description"
+F 27 "B2B-PH-K-S(LF)(SN)" H 3700 6200 50  0001 C CNN "_Value_"
+F 28 "*" H 3800 6300 50  0001 C CNN "Management_ID"
+	1    1400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Connectors:B3B-PH-K-S(LF)(SN) T5
+U 1 1 5F62B43B
+P 6400 4900
+F 0 "T5" H 6400 4550 50  0000 C CNN
+F 1 "B3B-PH-K-S(LF)(SN)" H 6800 4950 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:B3B-PH-K-S(LF)(SN)" H 5100 5950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 5000 50  0001 C CNN
+F 4 "0.19000" H 6500 5150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.08736" H 6600 5250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 6700 5350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.07765" H 6800 5450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.07037" H 6900 5550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "JST Sales America Inc." H 7000 5650 50  0001 C CNN "MFR"
+F 10 "B3B-PH-K-S(LF)(SN)" H 7100 5750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7200 5850 50  0001 C CNN "Vendor"
+F 12 "455-1705-ND" H 7300 5950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7400 6050 50  0001 C CNN "Designer"
+F 14 "6mm" H 7500 6150 50  0001 C CNN "Height"
+F 15 "7/12/2020" H 8600 7250 50  0001 C CNN "Date Created"
+F 16 "7/12/2020" H 7600 6250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7700 6350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7800 6450 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole, Vertical" H 7900 6550 50  0001 C CNN "Mounting"
+F 20 "3" H 8000 6650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8100 6750 50  0001 C CNN "Status"
+F 22 "*" H 8200 6850 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 8300 6950 50  0001 C CNN "Type"
+F 24 "100V" H 8400 7050 50  0001 C CNN "Voltage"
+F 25 "*" H 8500 7200 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 3 position 0.079\" (2.00mm)" H 8900 7600 50  0001 C CNN "Description"
+F 27 "B3B-PH-K-S(LF)(SN)" H 8700 7400 50  0001 C CNN "_Value_"
+F 28 "*" H 8800 7500 50  0001 C CNN "Management_ID"
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

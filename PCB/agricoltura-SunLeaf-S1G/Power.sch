@@ -485,78 +485,6 @@ F 28 "*" H 11900 6250 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:S3B-PH-K-S(LF)(SN) T5
-U 1 1 5F07EF2F
-P 6400 4900
-F 0 "T5" H 6450 4950 50  0000 C CNN
-F 1 "S3B-PH-K-S(LF)(SN)" V 6300 4850 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:S3B-PH-K-S(LF)(SN)" H 5100 5950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 5000 50  0001 C CNN
-F 4 "0.18000" H 6500 5150 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.08119" H 6600 5250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 6700 5350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.07217" H 6800 5450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.06541" H 6900 5550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "JST Sales America Inc." H 7000 5650 50  0001 C CNN "MFR"
-F 10 "S3B-PH-K-S(LF)(SN)" H 7100 5750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 7200 5850 50  0001 C CNN "Vendor"
-F 12 "455-1720-ND" H 7300 5950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 7400 6050 50  0001 C CNN "Designer"
-F 14 "6mm" H 7500 6150 50  0001 C CNN "Height"
-F 15 "7/9/2020" H 8600 7250 50  0001 C CNN "Date Created"
-F 16 "7/9/2020" H 7600 6250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 7700 6350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 7800 6450 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole, RightAngle" H 7900 6550 50  0001 C CNN "Mounting"
-F 20 "3" H 8000 6650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 8100 6750 50  0001 C CNN "Status"
-F 22 "*" H 8200 6850 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 8300 6950 50  0001 C CNN "Type"
-F 24 "100V" H 8400 7050 50  0001 C CNN "Voltage"
-F 25 "*" H 8500 7200 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole, Right Angle 3 position 0.079\" (2.00mm)" H 8900 7600 50  0001 C CNN "Description"
-F 27 "S3B-PH-K-S(LF)(SN)" H 8700 7400 50  0001 C CNN "_Value_"
-F 28 "*" H 8800 7500 50  0001 C CNN "Management_ID"
-	1    6400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Connectors:S2B-PH-K-S(LF)(SN) T4
-U 1 1 5F07DDDE
-P 1400 3700
-F 0 "T4" H 1450 3750 50  0000 C CNN
-F 1 "S2B-PH-K-S(LF)(SN)" H 1800 3450 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:S2B-PH-K-S(LF)(SN)" H 100 4750 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 3800 50  0001 C CNN
-F 4 "0.17000" H 1500 3950 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.07177" H 1600 4050 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.06152" H 1800 4250 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.05981" H 1900 4350 50  0001 C CNN "Cost QTY: 10000"
-F 9 "JST Sales America Inc." H 2000 4450 50  0001 C CNN "MFR"
-F 10 "S2B-PH-K-S(LF)(SN)" H 2100 4550 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2200 4650 50  0001 C CNN "Vendor"
-F 12 "455-1720-ND" H 2300 4750 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2400 4850 50  0001 C CNN "Designer"
-F 14 "6mm" H 2500 4950 50  0001 C CNN "Height"
-F 15 "7/9/2020" H 3600 6050 50  0001 C CNN "Date Created"
-F 16 "7/9/2020" H 2600 5050 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2700 5150 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 2800 5250 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole, RightAngle" H 2900 5350 50  0001 C CNN "Mounting"
-F 20 "2" H 3000 5450 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 3100 5550 50  0001 C CNN "Status"
-F 22 "*" H 3200 5650 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 3300 5750 50  0001 C CNN "Type"
-F 24 "100V" H 3400 5850 50  0001 C CNN "Voltage"
-F 25 "*" H 3500 6000 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole, Right Angle 2 position 0.079\" (2.00mm)" H 3900 6400 50  0001 C CNN "Description"
-F 27 "S2B-PH-K-S(LF)(SN)" H 3700 6200 50  0001 C CNN "_Value_"
-F 28 "*" H 3800 6300 50  0001 C CNN "Management_ID"
-	1    1400 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R21
 U 1 1 5F0746E3
 P 5750 4350
@@ -852,4 +780,76 @@ Text Label 8450 3750 0    50   ~ 0
 3V3_REG_IN
 Text Notes 2500 2300 0    200  ~ 40
 Power Supply & LiPo Solar Charge Controller
+$Comp
+L AVR-KiCAD-Lib-Connectors:B2B-PH-K-S(LF)(SN) T4
+U 1 1 5F6292FD
+P 1400 3700
+F 0 "T4" H 1400 3750 50  0000 C CNN
+F 1 "B2B-PH-K-S(LF)(SN)" H 1750 3450 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:B2B-PH-K-S(LF)(SN)" H 100 4750 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1300 3800 50  0001 C CNN
+F 4 "0.17000" H 1500 3950 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.07252" H 1600 4050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.06216" H 1800 4250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.06044" H 1900 4350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "JST Sales America Inc." H 2000 4450 50  0001 C CNN "MFR"
+F 10 "B2B-PH-K-S(LF)(SN)" H 2100 4550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2200 4650 50  0001 C CNN "Vendor"
+F 12 "455-1704-ND" H 2300 4750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2400 4850 50  0001 C CNN "Designer"
+F 14 "6mm" H 2500 4950 50  0001 C CNN "Height"
+F 15 "7/12/2020" H 3600 6050 50  0001 C CNN "Date Created"
+F 16 "7/12/2020" H 2600 5050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2700 5150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2800 5250 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole,Vertical" H 2900 5350 50  0001 C CNN "Mounting"
+F 20 "2" H 3000 5450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3100 5550 50  0001 C CNN "Status"
+F 22 "*" H 3200 5650 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 3300 5750 50  0001 C CNN "Type"
+F 24 "100V" H 3400 5850 50  0001 C CNN "Voltage"
+F 25 "*" H 3500 6000 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 2 position 0.079\" (2.00mm)" H 3900 6400 50  0001 C CNN "Description"
+F 27 "B2B-PH-K-S(LF)(SN)" H 3700 6200 50  0001 C CNN "_Value_"
+F 28 "*" H 3800 6300 50  0001 C CNN "Management_ID"
+	1    1400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Connectors:B3B-PH-K-S(LF)(SN) T5
+U 1 1 5F62B43B
+P 6400 4900
+F 0 "T5" H 6400 4550 50  0000 C CNN
+F 1 "B3B-PH-K-S(LF)(SN)" H 6800 4950 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:B3B-PH-K-S(LF)(SN)" H 5100 5950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6300 5000 50  0001 C CNN
+F 4 "0.19000" H 6500 5150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.08736" H 6600 5250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 6700 5350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.07765" H 6800 5450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.07037" H 6900 5550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "JST Sales America Inc." H 7000 5650 50  0001 C CNN "MFR"
+F 10 "B3B-PH-K-S(LF)(SN)" H 7100 5750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7200 5850 50  0001 C CNN "Vendor"
+F 12 "455-1705-ND" H 7300 5950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7400 6050 50  0001 C CNN "Designer"
+F 14 "6mm" H 7500 6150 50  0001 C CNN "Height"
+F 15 "7/12/2020" H 8600 7250 50  0001 C CNN "Date Created"
+F 16 "7/12/2020" H 7600 6250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7700 6350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7800 6450 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole, Vertical" H 7900 6550 50  0001 C CNN "Mounting"
+F 20 "3" H 8000 6650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8100 6750 50  0001 C CNN "Status"
+F 22 "*" H 8200 6850 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 8300 6950 50  0001 C CNN "Type"
+F 24 "100V" H 8400 7050 50  0001 C CNN "Voltage"
+F 25 "*" H 8500 7200 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 3 position 0.079\" (2.00mm)" H 8900 7600 50  0001 C CNN "Description"
+F 27 "B3B-PH-K-S(LF)(SN)" H 8700 7400 50  0001 C CNN "_Value_"
+F 28 "*" H 8800 7500 50  0001 C CNN "Management_ID"
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
