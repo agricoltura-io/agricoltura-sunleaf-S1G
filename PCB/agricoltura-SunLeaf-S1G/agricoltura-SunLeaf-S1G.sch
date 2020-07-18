@@ -52,6 +52,8 @@ F0 "Power Supply & Battery Charging" 50
 F1 "Power.sch" 50
 F2 "USB_VBUS" I R 3750 4850 50 
 F3 "BAT_VOLT_SENSE" I R 3750 5250 50 
+F4 "BAT_SDA" I R 3750 5350 50 
+F5 "BAT_SCL" I R 3750 5450 50 
 $EndSheet
 $Sheet
 S 7550 1650 2550 1450
