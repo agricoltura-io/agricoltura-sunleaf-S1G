@@ -1180,7 +1180,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F466F8E
 P 4850 2150
-F 0 "R?" V 4804 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F466F8E" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F466F8E" Ref="R30"  Part="1" 
+F 0 "R30" V 4804 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 4850 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 4850 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4850 2150 50  0001 C CNN
@@ -1216,7 +1218,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F466FAD
 P 5200 2150
-F 0 "R?" V 5154 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F466FAD" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F466FAD" Ref="R32"  Part="1" 
+F 0 "R32" V 5154 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5200 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5200 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5200 2150 50  0001 C CNN
@@ -1254,7 +1258,9 @@ $Comp
 L power:+3V3 #PWR?
 U 1 1 5F466FB4
 P 4850 1950
-F 0 "#PWR?" H 4850 1800 50  0001 C CNN
+AR Path="/5F054F9E/5F466FB4" Ref="#PWR?"  Part="1" 
+AR Path="/5F0552DA/5F466FB4" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4850 1800 50  0001 C CNN
 F 1 "+3V3" H 4865 2123 50  0000 C CNN
 F 2 "" H 4850 1950 50  0001 C CNN
 F 3 "" H 4850 1950 50  0001 C CNN
@@ -1266,7 +1272,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F46FD7B
 P 5550 2150
-F 0 "R?" V 5504 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F46FD7B" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F46FD7B" Ref="R34"  Part="1" 
+F 0 "R34" V 5504 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5550 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5550 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5550 2150 50  0001 C CNN
@@ -1302,7 +1310,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F46FD9A
 P 5900 2150
-F 0 "R?" V 5854 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F46FD9A" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F46FD9A" Ref="R36"  Part="1" 
+F 0 "R36" V 5854 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5900 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5900 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5900 2150 50  0001 C CNN
@@ -1340,7 +1350,9 @@ $Comp
 L power:+3V3 #PWR?
 U 1 1 5F46FDA1
 P 5550 1950
-F 0 "#PWR?" H 5550 1800 50  0001 C CNN
+AR Path="/5F054F9E/5F46FDA1" Ref="#PWR?"  Part="1" 
+AR Path="/5F0552DA/5F46FDA1" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 5550 1800 50  0001 C CNN
 F 1 "+3V3" H 5565 2123 50  0000 C CNN
 F 2 "" H 5550 1950 50  0001 C CNN
 F 3 "" H 5550 1950 50  0001 C CNN
@@ -1352,7 +1364,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F478726
 P 6250 2150
-F 0 "R?" V 6204 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F478726" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F478726" Ref="R38"  Part="1" 
+F 0 "R38" V 6204 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6250 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6250 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6250 2150 50  0001 C CNN
@@ -1388,7 +1402,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F478745
 P 6600 2150
-F 0 "R?" V 6554 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F478745" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F478745" Ref="R41"  Part="1" 
+F 0 "R41" V 6554 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6600 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6600 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6600 2150 50  0001 C CNN
@@ -1426,7 +1442,9 @@ $Comp
 L power:+3V3 #PWR?
 U 1 1 5F47874C
 P 6250 1950
-F 0 "#PWR?" H 6250 1800 50  0001 C CNN
+AR Path="/5F054F9E/5F47874C" Ref="#PWR?"  Part="1" 
+AR Path="/5F0552DA/5F47874C" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 6250 1800 50  0001 C CNN
 F 1 "+3V3" H 6265 2123 50  0000 C CNN
 F 2 "" H 6250 1950 50  0001 C CNN
 F 3 "" H 6250 1950 50  0001 C CNN
@@ -1438,7 +1456,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F481D94
 P 6950 2150
-F 0 "R?" V 6904 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F481D94" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F481D94" Ref="R43"  Part="1" 
+F 0 "R43" V 6904 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6950 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6950 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6950 2150 50  0001 C CNN
@@ -1474,7 +1494,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F481DB3
 P 7300 2150
-F 0 "R?" V 7254 2238 50  0000 L CNN
+AR Path="/5F054F9E/5F481DB3" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F481DB3" Ref="R44"  Part="1" 
+F 0 "R44" V 7254 2238 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 7300 2237 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7300 2150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7300 2150 50  0001 C CNN
@@ -1512,7 +1534,9 @@ $Comp
 L power:+3V3 #PWR?
 U 1 1 5F481DBA
 P 6950 1950
-F 0 "#PWR?" H 6950 1800 50  0001 C CNN
+AR Path="/5F054F9E/5F481DBA" Ref="#PWR?"  Part="1" 
+AR Path="/5F0552DA/5F481DBA" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 6950 1800 50  0001 C CNN
 F 1 "+3V3" H 6965 2123 50  0000 C CNN
 F 2 "" H 6950 1950 50  0001 C CNN
 F 3 "" H 6950 1950 50  0001 C CNN
@@ -1566,7 +1590,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F4ECD6B
 P 4900 5000
-F 0 "R?" V 4854 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F4ECD6B" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F4ECD6B" Ref="R31"  Part="1" 
+F 0 "R31" V 4854 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 4900 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 4900 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4900 5000 50  0001 C CNN
@@ -1602,7 +1628,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F4ECD8A
 P 4550 5000
-F 0 "R?" V 4504 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F4ECD8A" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F4ECD8A" Ref="R29"  Part="1" 
+F 0 "R29" V 4504 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 4550 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 4550 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4550 5000 50  0001 C CNN
@@ -1641,8 +1669,8 @@ L power:+3V3 #PWR?
 U 1 1 5F4ECD91
 P 3850 5200
 AR Path="/5F054F9E/5F4ECD91" Ref="#PWR?"  Part="1" 
-AR Path="/5F0552DA/5F4ECD91" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 5050 50  0001 C CNN
+AR Path="/5F0552DA/5F4ECD91" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 3850 5050 50  0001 C CNN
 F 1 "+3V3" H 3865 5373 50  0000 C CNN
 F 2 "" H 3850 5200 50  0001 C CNN
 F 3 "" H 3850 5200 50  0001 C CNN
@@ -1653,7 +1681,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F4F8F45
 P 5600 5000
-F 0 "R?" V 5554 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F4F8F45" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F4F8F45" Ref="R35"  Part="1" 
+F 0 "R35" V 5554 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5600 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5600 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5600 5000 50  0001 C CNN
@@ -1689,7 +1719,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F4F8F64
 P 5250 5000
-F 0 "R?" V 5204 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F4F8F64" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F4F8F64" Ref="R33"  Part="1" 
+F 0 "R33" V 5204 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5250 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5250 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5250 5000 50  0001 C CNN
@@ -1727,7 +1759,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F505D8B
 P 6250 5000
-F 0 "R?" V 6204 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F505D8B" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F505D8B" Ref="R39"  Part="1" 
+F 0 "R39" V 6204 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6250 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6250 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6250 5000 50  0001 C CNN
@@ -1763,7 +1797,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F505DAA
 P 5900 5000
-F 0 "R?" V 5854 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F505DAA" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F505DAA" Ref="R37"  Part="1" 
+F 0 "R37" V 5854 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 5900 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5900 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5900 5000 50  0001 C CNN
@@ -1864,7 +1900,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F568E0C
 P 6900 5000
-F 0 "R?" V 6854 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F568E0C" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F568E0C" Ref="R42"  Part="1" 
+F 0 "R42" V 6854 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6900 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6900 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6900 5000 50  0001 C CNN
@@ -1900,7 +1938,9 @@ $Comp
 L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
 U 1 1 5F568E2B
 P 6550 5000
-F 0 "R?" V 6504 5088 50  0000 L CNN
+AR Path="/5F054F9E/5F568E2B" Ref="R?"  Part="1" 
+AR Path="/5F0552DA/5F568E2B" Ref="R40"  Part="1" 
+F 0 "R40" V 6504 5088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 6550 5087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6550 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6550 5000 50  0001 C CNN
