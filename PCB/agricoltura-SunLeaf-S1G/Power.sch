@@ -154,7 +154,6 @@ Wire Wire Line
 Connection ~ 3500 3200
 Wire Wire Line
 	3500 3450 3500 3200
-Connection ~ 8200 3200
 Wire Wire Line
 	8200 3200 4300 3200
 Wire Wire Line
@@ -164,44 +163,6 @@ Wire Wire Line
 Connection ~ 9000 3750
 Wire Wire Line
 	9000 3200 9000 3750
-Wire Wire Line
-	8500 3200 9000 3200
-$Comp
-L AVR-KiCAD-Lib-Diodes:B240A-13-F D6
-U 1 1 5F1169F4
-P 8350 3200
-F 0 "D6" H 8350 3440 50  0000 C CNN
-F 1 "B240A-13-F" H 8400 3400 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Diodes:B240A-13-F" H 8100 3350 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 8250 3300 50  0001 C CNN
-F 4 "0.41000" H 8450 3450 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.10100" H 8550 3550 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.09242" H 8650 3650 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.08838" H 8750 3750 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.07828" H 8850 3850 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Diodes Incorporated" H 8950 3950 50  0001 C CNN "MFR"
-F 10 "B240A-13-F" H 9050 4050 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 9150 4150 50  0001 C CNN "Vendor"
-F 12 "B240A-FDICT-ND" H 9250 4250 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 9350 4350 50  0001 C CNN "Designer"
-F 14 "0.73mm" H 9450 4450 50  0001 C CNN "Height"
-F 15 "3/30/2020" H 10550 5550 50  0001 C CNN "Date Created"
-F 16 "3/30/2020" H 9550 4550 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 9650 4650 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 9750 4750 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 9850 4850 50  0001 C CNN "Mounting"
-F 20 "2" H 9950 4950 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 10050 5050 50  0001 C CNN "Status"
-F 22 "*" H 10150 5150 50  0001 C CNN "Tolerance"
-F 23 "TVS Diode" H 10250 5250 50  0001 C CNN "Type"
-F 24 "40V" H 10350 5350 50  0001 C CNN "Voltage"
-F 25 "DO-214AC, SMA" H 10450 5500 50  0001 C CNN "Package"
-F 26 "Diode Schottky 40V 2A Surface Mount SMA" H 10750 5800 50  0001 C CNN "Description"
-F 27 "B240A-13-F" H 8350 3349 50  0000 C CNN "_Value_"
-F 28 "*" H 10750 5800 50  0001 C CNN "Management_ID"
-	1    8350 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 3750 3300 3750
 Wire Wire Line
@@ -922,4 +883,43 @@ Text HLabel 7200 4800 2    50   Input ~ 0
 BAT_SDA
 Text HLabel 7200 4900 2    50   Input ~ 0
 BAT_SCL
+$Comp
+L AVR-KiCAD-Lib-Diodes:BAT20JFILM D6
+U 1 1 5F31DBDB
+P 8450 3200
+F 0 "D6" H 8450 3440 50  0000 C CNN
+F 1 "BAT20JFILM" H 8500 3400 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Diodes:BAT20JFILM" H 8350 3200 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/81/a4/1f/0e/ca/8c/47/ba/CD00012201/files/CD00012201.pdf/jcr:content/translations/en.CD00012201.pdf" H 8350 3300 50  0001 C CNN
+F 4 "0.32000" H 8550 3450 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.06120" H 8650 3550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 8750 3650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 8850 3750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 8950 3850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "STMicroelectronics" H 9050 3950 50  0001 C CNN "MFR"
+F 10 "BAT20JFILM" H 9150 4050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 9250 4150 50  0001 C CNN "Vendor"
+F 12 "497-3381-1-ND" H 9350 4250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 9450 4350 50  0001 C CNN "Designer"
+F 14 "1.13mm" H 9550 4450 50  0001 C CNN "Height"
+F 15 "7/19/2020" H 10650 5550 50  0001 C CNN "Date Created"
+F 16 "7/19/2020" H 9650 4550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 9750 4650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9850 4750 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9950 4850 50  0001 C CNN "Mounting"
+F 20 "2" H 10050 4950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 10150 5050 50  0001 C CNN "Status"
+F 22 "*" H 10250 5150 50  0001 C CNN "Tolerance"
+F 23 "Schottky Diode" H 10350 5250 50  0001 C CNN "Type"
+F 24 "23V" H 10450 5350 50  0001 C CNN "Voltage"
+F 25 "SOD-323" H 10550 5500 50  0001 C CNN "Package"
+F 26 "Diode Schottky 23V 1A Surface Mount SOD-323" H 10850 5800 50  0001 C CNN "Description"
+F 27 "BAT20JFILM" H 8450 3349 50  0000 C CNN "_Value_"
+F 28 "*" H 10850 5800 50  0001 C CNN "Management_ID"
+	1    8450 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 3200
+Wire Wire Line
+	8700 3200 9000 3200
 $EndSCHEMATC
