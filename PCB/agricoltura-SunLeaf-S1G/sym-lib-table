@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "agricoltura-SunLeaf-S1G-rescue")(type "KiCad")(uri "${KIPRJMOD}/agricoltura-SunLeaf-S1G-rescue.kicad_sym")(options "")(descr ""))
+)
